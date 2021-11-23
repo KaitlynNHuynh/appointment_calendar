@@ -13,6 +13,9 @@ In the Appointments.txt file, you will find the information set up in the format
   
 I have implemented three http requests that will get all doctors, get an appointment given doctor name, time and date, and delete an appointment given a doctor name, time and date. To run my program, please clone the repo. Then in the top level directory, run "npm i". Next, run "node index.js". In another terminal, please run the following curl commands to test my api.
 
+# NOTE: 
+ReadMe requires me to add two backslash characters to represent one backslash. If your editor does not process ReadMe Files, please remove any extra backslashes for the curl command. For example, if you see two backslashes, it should be one.
+
 # Get Doctors 
 curl http://localhost:3000/calendar/doctors 
 # Get Appointment
