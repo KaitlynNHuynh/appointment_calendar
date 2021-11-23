@@ -16,9 +16,9 @@ I have implemented three http requests that will get all doctors, get an appoint
 # Get Doctors 
 curl http://localhost:3000/calendar/doctors 
 # Get Appointment
-curl --header "Content-Type: application/json" -d "{\"firstName\":\"Bob\", \"lastName\":\"Smith\", \"date\":\"05/09/2021\", \"time\":\"8:30AM\"}" http://localhost:3000/calendar/appointments 
+curl --header "Content-Type: application/json" -d "{\\"firstName\\":\\"Bob\\", \\"lastName\\":\\"Smith\\", \\"date\\":\\"05/09/2021\\", \\"time\\":\\"8:30AM\\"}" http://localhost:3000/calendar/appointments 
 # Delete Appointment 
-curl --header "Content-Type: application/json" -X DELETE -d "{\"firstName\":\"Bob\", \"lastName\":\"Smith\", \"date\":\"05/09/2021\", \"time\":\"8:30AM\", \"patientFirst\":\"Mary\", \"patientLast\":\"Jane\"}" http://localhost:3000/calendar/appointments
+curl --header "Content-Type: application/json" -X DELETE -d "{\\"firstName\\":\\"Bob\\", \\"lastName\\":\\"Smith\\", \\"date\\":\\"05/09/2021\\", \\"time\\":\\"8:30AM\\", \\"patientFirst\\":\\"Mary\\", \\"patientLast\\":\\"Jane\\"}" http://localhost:3000/calendar/appointments
 
 
 
